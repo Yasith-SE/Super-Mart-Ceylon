@@ -1,5 +1,6 @@
 package edu.icet.model.dto;
 
+import jakarta.persistence.Id;
 import lombok.*;
 
 @Getter
@@ -10,6 +11,8 @@ import lombok.*;
 
 
 public class CustomerDto {
+
+    @Id
     private String id;
 
     private String name;
